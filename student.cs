@@ -9,4 +9,9 @@ public class student
 	public string Email {get; set;}
 
 
+	public string GetStudentName()
+	{
+		return StudentName;
+	}
+
 }
